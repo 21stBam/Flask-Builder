@@ -19,7 +19,7 @@ FILES = {
     '{project_slug}/app.py': 'app.py.template',
     '{project_slug}/static/css/{project_slug}.css': 'project.css.template',
     '{project_slug}/static/js/{project_slug}.js': 'project.js.template',
-    '{project_slug}/tempalates/index.html': 'index.html.template'
+    '{project_slug}/templates/index.html': 'index.html.template'
 }
 
 def flask_template_prepare(string):
